@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2024-03-18T10:29:59.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="K3G8_Q6FcDwGM8o_tvlM" version="24.0.4" type="github">
+  <diagram name="Page-1" id="YC8m2WQYdcDADV_9TK0x">
+    <mxGraphModel dx="660" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="piRoLev-IPj8hEiXaaGC-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="piRoLev-IPj8hEiXaaGC-1" target="piRoLev-IPj8hEiXaaGC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piRoLev-IPj8hEiXaaGC-1" value="DNS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="piRoLev-IPj8hEiXaaGC-2" value="&lt;b&gt;Authoritative DNS&lt;/b&gt;&lt;div&gt;Stores DNS records, answers DNS queries, translates domain names to IP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="piRoLev-IPj8hEiXaaGC-3" value="&lt;b&gt;Recursive DNS&lt;/b&gt;&lt;div&gt;does not own DNS records, caches them instead&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
