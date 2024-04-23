@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T12:02:41.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_XcRUP9mRVxWW5TsYx2G" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T13:02:33.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="rN2F3sJMbnb3zbIdkq9g" version="24.2.7" type="github">
   <diagram name="Page-1" id="zy53SV4MM4HQcxOWOFIB">
-    <mxGraphModel dx="696" dy="1093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="580" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="Fg91I0AFiqTMSci7lzFo-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-1" target="Fg91I0AFiqTMSci7lzFo-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fg91I0AFiqTMSci7lzFo-15" value="Looks for newly created&amp;nbsp;&lt;div&gt;containers and assign to notes&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-14">
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-15" value="Looks for newly created&amp;nbsp;&lt;div&gt;containers and assign to nodes&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-14">
           <mxGeometry x="-0.0231" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -118,13 +118,172 @@
           <mxGeometry x="950" y="690" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Fg91I0AFiqTMSci7lzFo-38" value="&lt;b&gt;kubectl run&lt;/b&gt;&lt;div&gt;Deploy app&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="820" width="120" height="30" as="geometry" />
+          <mxGeometry x="1110" y="850" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fg91I0AFiqTMSci7lzFo-39" value="&lt;b&gt;kubectl cluster info&lt;/b&gt;&lt;div&gt;get info on cluster&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1110" y="900" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fg91I0AFiqTMSci7lzFo-40" value="&lt;b&gt;kubectl get nodes&lt;/b&gt;&lt;div&gt;list nodes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1110" y="960" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-41" value="&lt;b&gt;Commands&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-42" value="docker vs containerD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-43" value="Kube was built to orchestrate docker (tightly coupled)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-44" value="kube became the main container orchestration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-45" value="Docker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-46" target="Fg91I0AFiqTMSci7lzFo-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-48" value="Tightly coupled&lt;div&gt;Only worked&amp;nbsp;&lt;/div&gt;&lt;div&gt;with Docker&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-47">
+          <mxGeometry x="0.1749" y="3" relative="1" as="geometry">
+            <mxPoint x="14" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-51" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-46" target="Fg91I0AFiqTMSci7lzFo-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-54" value="Does not support" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-51">
+          <mxGeometry x="0.176" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-46" value="Kubernetes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-49" value="rkt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-76" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-56" target="Fg91I0AFiqTMSci7lzFo-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-56" value="Kubernetes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-57" value="Container Runtime Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-81" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-58" target="Fg91I0AFiqTMSci7lzFo-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-58" value="Docker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-59" target="Fg91I0AFiqTMSci7lzFo-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-79" value="Allow any vendor work with" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-60">
+          <mxGeometry x="-0.1211" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-59" value="rkt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-64" value="OCI&lt;div&gt;Open Container Initiative (standard)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="480" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-66" value="imagespec" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="570" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-67" value="runtimespec" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-69" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-68" target="Fg91I0AFiqTMSci7lzFo-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-68" value="How an image should be built" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="570" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-71" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-70" target="Fg91I0AFiqTMSci7lzFo-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-70" value="How any container runtime should be developed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="610" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-74" target="Fg91I0AFiqTMSci7lzFo-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-74" value="dockershim (removed at a later date)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-75" value="Docker did not adhere to OCI, therefore a bespoke solution (dockershim) was developed to continue support docker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="335" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-82" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-80" target="Fg91I0AFiqTMSci7lzFo-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-83" value="Implemented at a later date" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-82">
+          <mxGeometry x="-0.4589" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-80" value="Containerd was a part of docker - daemon for runtime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-84" value="&lt;b&gt;containerd&lt;/b&gt;&lt;div&gt;was a part of docker but now its own thing&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-88" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-85" target="Fg91I0AFiqTMSci7lzFo-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-89" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-85" target="Fg91I0AFiqTMSci7lzFo-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-90" value="CLI for contd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-89">
+          <mxGeometry x="0.1527" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-85" value="&lt;b&gt;nerdctl - &lt;/b&gt;provides Docker-like CLI for containerD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-86" value="supports docker compose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-92" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-91" target="Fg91I0AFiqTMSci7lzFo-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-91" value="very similar to docker CLI" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1040" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-96" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-93" target="Fg91I0AFiqTMSci7lzFo-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-97" value="used mainly for&lt;div&gt;kube&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-96">
+          <mxGeometry x="-0.023" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-103" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-93" target="Fg91I0AFiqTMSci7lzFo-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-93" value="&lt;b&gt;crictl &lt;/b&gt;- CLI for CRI compatible container runtimes (not just for containerd)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-95" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-94" target="Fg91I0AFiqTMSci7lzFo-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-94" value="&lt;ul&gt;&lt;li&gt;used to inspect/debug container runtimes&lt;/li&gt;&lt;li&gt;maintained by Kube community&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="900" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-101" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-100" target="Fg91I0AFiqTMSci7lzFo-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-100" value="&lt;b&gt;ctr - &lt;/b&gt;default debug rtrool for containers, not user friendly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-102" value="&lt;b&gt;other runtime&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
