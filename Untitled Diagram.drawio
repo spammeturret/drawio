@@ -1,9 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T11:08:31.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.7" etag="ZM-B9ADK1y8dLlwuEEz7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T12:02:41.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_XcRUP9mRVxWW5TsYx2G" version="24.2.7" type="github">
   <diagram name="Page-1" id="zy53SV4MM4HQcxOWOFIB">
-    <mxGraphModel>
+    <mxGraphModel dx="696" dy="1093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-1" target="Fg91I0AFiqTMSci7lzFo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-10" value="Frontend for Kube communication.&lt;div&gt;everything talk to it to interact&lt;/div&gt;&lt;div&gt;with kube cluster&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-8">
+          <mxGeometry x="0.2197" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-1" target="Fg91I0AFiqTMSci7lzFo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-13" value="key-value store&lt;div&gt;Store data used to mgt cluster&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-11">
+          <mxGeometry x="-0.1678" y="3" relative="1" as="geometry">
+            <mxPoint x="44" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-1" target="Fg91I0AFiqTMSci7lzFo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-21" value="Agent runs on each&amp;nbsp;&lt;div&gt;node of the cluster&lt;/div&gt;&lt;div&gt;make sure containers on nodes&amp;nbsp;&lt;/div&gt;&lt;div&gt;are running as expected&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-12">
+          <mxGeometry x="-0.0749" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-1" target="Fg91I0AFiqTMSci7lzFo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-15" value="Looks for newly created&amp;nbsp;&lt;div&gt;containers and assign to notes&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-14">
+          <mxGeometry x="-0.0231" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-1" target="Fg91I0AFiqTMSci7lzFo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-17" value="Orchestration&lt;div&gt;Decision to bring up container/&amp;nbsp;&lt;/div&gt;&lt;div&gt;respond to container state&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-16">
+          <mxGeometry x="0.1603" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-1" target="Fg91I0AFiqTMSci7lzFo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-19" value="Underlying software&amp;nbsp;&lt;div&gt;that runs containers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-18">
+          <mxGeometry x="0.0629" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-1" value="Kubernetes&lt;div&gt;Components&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-2" value="API Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-3" value="etcd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-4" value="kubelet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-5" value="Container Runtime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-6" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-7" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-22" value="Worker Node" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="920" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-24" value="Container Runtime e.g. Docker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-26" value="Master Node" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="920" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-31" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-27" target="Fg91I0AFiqTMSci7lzFo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-32" value="Sends commands to manipulate&lt;div&gt;worker node state&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fg91I0AFiqTMSci7lzFo-31">
+          <mxGeometry x="-0.0349" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-27" value="kube-apiserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="570" y="950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-29" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fg91I0AFiqTMSci7lzFo-28" target="Fg91I0AFiqTMSci7lzFo-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-28" value="This make it a master nod&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="750" y="900" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-30" value="kubelet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="170" y="950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-33" value="etcd" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="570" y="990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-34" value="controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1030" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-35" value="scheduler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-36" value="&lt;b&gt;kubectl&lt;/b&gt;&lt;div&gt;kube-control&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-37" value="kube" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="950" y="690" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-38" value="&lt;b&gt;kubectl run&lt;/b&gt;&lt;div&gt;Deploy app&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="820" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-39" value="&lt;b&gt;kubectl cluster info&lt;/b&gt;&lt;div&gt;get info on cluster&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="900" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg91I0AFiqTMSci7lzFo-40" value="&lt;b&gt;kubectl get nodes&lt;/b&gt;&lt;div&gt;list nodes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="960" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
